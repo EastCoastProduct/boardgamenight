@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Board Game Night.iO</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="favicon.ico"/>
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script>
+        $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+        </script>
+        <script>
+        $(document).ready(function() {
+            $(".responsive").hide();
+            $(".menu").on("click", function(){
+                $(".responsive").fadeToggle();
+                event.preventDefault();
+                });
+            $(".nav-item").on("click", function() {
+                $(".responsive").hide();
+                event.preventDefault();
+            });
+        });
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <nav id="mainnav">
+            <h1 class="logo">Board Game Night.io</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="responsive-nav">
+            <h1 class="logo">Board Game Night.io</h1>
+            <p><a href="#" class="menu">MENU</a></p>
+            <ul class="responsive">
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#photos" class="nav-item">Photos</a></li>
+                <li><a href="#events" class="nav-item">Events</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+        </div>
+
+        <section id="header">
+            <div class="tilecontainer">
+                <p class="row1 column13 light" aria-hidden="true">A</p>
+                <p class="row2 column5 wow flipInY" data-wow-delay=".5s" aria-hidden="true">G</p>
+                <p class="row2 column10 light" aria-hidden="true">L</p>
+                <p class="row2 column13 light" aria-hidden="true">T</p>
+                <p class="row3 column3 wow flipInY" aria-hidden="true">B</p>
+                <p class="row3 column4 wow flipInY" data-wow-delay=".1s" aria-hidden="true">O</p>
+                <p class="row3 column5 wow flipInY" data-wow-delay=".2s" aria-hidden="true">A</p>
+                <p class="row3 column6 wow flipInY" data-wow-delay=".3s" aria-hidden="true">R</p>
+                <p class="row3 column7 wow flipInY" data-wow-delay=".4s" aria-hidden="true">D</p>
+                <p class="row3 column9 light" aria-hidden="true">M</p>
+                <p class="row3 column10 light" aria-hidden="true">I</p>
+                <p class="row3 column11 light" aria-hidden="true">R</p>
+                <p class="row3 column12 light" aria-hidden="true">T</p>
+                <p class="row3 column13 light" aria-hidden="true">H</p>
+                <p class="row4 column3 light" aria-hidden="true">E</p>
+                <p class="row4 column5 wow flipInY" data-wow-delay=".6s" aria-hidden="true">M</p>
+                <p class="row4 column7 light" aria-hidden="true">E</p>
+                <p class="row4 column10 light" aria-hidden="true">G</p>
+                <p class="row5 column1 light" aria-hidden="true">A</p>
+                <p class="row5 column2 light" aria-hidden="true">I</p>
+                <p class="row5 column3 light" aria-hidden="true">S</p>
+                <p class="row5 column4 light" aria-hidden="true">L</p>
+                <p class="row5 column5 wow flipInY" data-wow-delay=".7s" aria-hidden="true">E</p>
+                <p class="row5 column7 wow flipInY" data-wow-delay="1s" aria-hidden="true">N</p>
+                <p class="row5 column8 wow flipInY" data-wow-delay="1.2s" aria-hidden="true">I</p>
+                <p class="row5 column9 wow flipInY" data-wow-delay="1.3s" aria-hidden="true">G</p>
+                <p class="row5 column10 wow flipInY" data-wow-delay="1.4s" aria-hidden="true">H</p>
+                <p class="row5 column11 wow flipInY" data-wow-delay="1.5s" aria-hidden="true">T</p>
+                <p class="row5 column13 light" aria-hidden="true">L</p>
+                <p class="row6 column3 light" aria-hidden="true">T</p>
+                <p class="row6 column8 wow flipInY" data-wow-delay="1.6s" aria-hidden="true">O</p>
+                <p class="row6 column10 light" aria-hidden="true">T</p>
+                <p class="row6 column11 light" aria-hidden="true">R</p>
+                <p class="row6 column12 light" aria-hidden="true">I</p>
+                <p class="row6 column13 light" aria-hidden="true">U</p>
+                <p class="row6 column14 light" aria-hidden="true">M</p>
+                <p class="row6 column15 light" aria-hidden="true">P</p>
+                <p class="row6 column16 light" aria-hidden="true">H</p>
+                <p class="row7 column8 light" aria-hidden="true">N</p>
+                <p class="row7 column11 light" aria-hidden="true">I</p>
+                <p class="row7 column13 light" aria-hidden="true">M</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h1>What is Board Game Night.io?</h1>
+            <p>BGN.io is the monthly event that brings together Boston's innovation crowd for an evening of board games and great times. We're always looking for new players!</p>
+        </section>
+
+        <section id="photos">
+            <h1>Photos From Previous Events</h1>
+
+            <!--- <p>Check out our <a href="#">flickr</a> for more event photos.</p> -->
+
+            <div class="img-container">
+                <img src="img/bgnio1.jpg">
+                <img src="img/bgnio2.jpg">
+                <img src="img/bgnio3.jpg">
+            </div>
+        </section>
+
+        <section id="events">
+            <h1>Next Event</h1>
+            <h2>Thursday, January 22nd</h2>
+            <h3>6:00PM @ Vsnap HQ</h3>
+            <h3>36 Bromfield St, STE 302, Boston, MA</h3>
+            <a href="https://www.eventbrite.com/e/board-game-night-io-bgnio-tickets-14750199243" target="_blank" class="button-white">Register Now</a>
+        </section>
+
+        <section id="sponsors">
+            <h1>Sponsored by:</h1>
+            <a href="http://vsnap.com"><img src="img/vsnap_sponsor.png" alt="Vsnap"></a>
+            <p>Want to become a sponsor? <a href="mailto:event@vsnap.com">Learn more here.</a></p>
+        </section>
+
+        <section id="contact">
+            <h1>Stay Connected</h1>
+            <ul>
+                <li><a href="http://www.facebook.com/bgnio"><img src="img/facebook.png" alt="Facebook"></a></li>
+                <li><a href="http://www.twitter.com/bgnio"><img src="img/twitter.png" alt="Twitter"></a></li>
+                <li><a href="mailto:event@vsnap.com"><img src="img/email.png" alt="Email"></a></li>
+            </ul>
+            <p class="details">&copy;2014 BoardGameNight.io. All rights reserved.</p>
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
