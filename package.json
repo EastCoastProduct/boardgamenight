@@ -1,0 +1,25 @@
+{
+  "name": "boardgamenight",
+  "version": "1.0.0",
+  "description": "Board Game Night Static Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vsnap/boardgamenight.git"
+  },
+  "author": "Vsnap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vsnap/boardgamenight/issues"
+  },
+  "homepage": "https://github.com/Vsnap/boardgamenight",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-filter": "^2.0.1",
+    "gulp-gzip": "0.0.8",
+    "gulp-s3": "^0.3.0"
+  }
+}
