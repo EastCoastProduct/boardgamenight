@@ -5,7 +5,7 @@ var gulp = require('gulp'),
   gzip = require('gulp-gzip'),
   filter = require('gulp-filter'),
   fs = require('fs'),
-  var cloudfront = require("gulp-cloudfront");
+  cloudfront = require("gulp-cloudfront");
 
 var options = {
   headers: {'Cache-Control': 'max-age=315360000, no-transform, public'},
