@@ -863,6 +863,10 @@ h1 {
         position: absolute;
     }
 
+    #sponsors img {
+      width:75%;
+    }
+
     .row1 {
         top: -20px;
     }
