@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vsnap/boardgamenight.git"
+    "url": "https://github.com/EastCoastProduct/boardgamenight/"
   },
   "author": "East Coast Product",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vsnap/boardgamenight/issues"
+    "url": "https://github.com/EastCoastProduct/boardgamenight/issues"
   },
-  "homepage": "https://github.com/Vsnap/boardgamenight",
+  "homepage": "https://github.com/EastCoastProduct/boardgamenight/",
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-cloudfront": "0.0.14",
