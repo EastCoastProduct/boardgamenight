@@ -462,7 +462,8 @@ h1 {
     background-color: #fff;
     width: 100%;
     text-align: center;
-    padding: 90px 0;
+    padding: 90px 90px 90px 90px;
+    margin: 10px 10px 10px 10px
 }
 
 #sponsors h1 {
